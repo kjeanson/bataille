@@ -14,7 +14,7 @@ class GameContainer
      * Retourne le générateur de joueurs
      * @return PlayerFactory
      */
-    public static function getPlayer():PlayerFactory {
+    public static function getPlayerFactory():PlayerFactory {
         return new PlayerFactory();
     }
 
@@ -22,7 +22,7 @@ class GameContainer
      * Retourne le générateur de cartes
      * @return CardFactory
      */
-    public static function getCard():CardFactory {
+    public static function getCardFactory():CardFactory {
         return new CardFactory();
     }
 
@@ -30,7 +30,7 @@ class GameContainer
      * Retourne le jeu de la bataille
      * @return WarService
      */
-    public static function getWar():WarService {
+    public static function getWarService():WarService {
         return new WarService();
     }
 }
