@@ -5,3 +5,8 @@
 * chaque joueur retourne la première carte de son paquet, le joueur disposant de la plus forte carte marque un point
 * on continue jusqu'à ce qu'il n'y ait plus de carte à jouer
 * on affiche le nom du(des) vainqueur(s)
+
+## Exécution du script
+
+Ligne de commande :
+$ /path/to/php index.php Nom_joueur_1 Nom_joueur_2
