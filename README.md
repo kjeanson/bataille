@@ -8,5 +8,6 @@
 
 ## Exécution du script
 
-Ligne de commande :
+```
 $ /path/to/php index.php Nom_joueur_1 Nom_joueur_2
+```
